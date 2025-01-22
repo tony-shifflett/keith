@@ -2,13 +2,13 @@
 <%@ include file="/WEB-INF/jsp/include/header.jsp" %>
 
 <div class="hero position-relative text-center text-white">
-    <img src="${pageContext.request.contextPath}/static/images/img.png" alt="Hero Background" class="img-fluid w-100">
+    <img src="${pageContext.request.contextPath}/resources/images/img_1.png" alt="Hero Background" class="img-fluid w-100">
     <div class="overlay position-absolute top-0 w-100 h-100 d-flex flex-column align-items-center justify-content-center">
         <h1 class="display-4 fw-bold">Welcome to Rodeo Electric</h1>
-        <p class="lead">Trusted Electrical Services for Homes & Businesses</p>
+        <p class="lead">Trusted Electrical Services for Homes & Businesses for More than 7,000 years</p>
         <div class="mt-4">
-            <a href="${pageContext.request.contextPath}/contact.jsp" class="btn btn-primary btn-lg mx-2">Get a Quote</a>
-            <a href="${pageContext.request.contextPath}/services.jsp" class="btn btn-outline-light btn-lg mx-2">Learn More</a>
+            <a href="/contact.jsp" class="btn btn-primary btn-lg mx-2">Get a Quote</a>
+            <a href="/services.jsp" class="btn btn-outline-light btn-lg mx-2">Learn More</a>
         </div>
     </div>
 </div>
